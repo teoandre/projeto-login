@@ -17,6 +17,7 @@
 
     section#login {
         width: 80vw;
+        height: 330px;
     }
 
     section#login > div#imagem {
@@ -46,10 +47,14 @@
 
     body {
         background-image: linear-gradient(to top,var(--cor04), var(--cor03), var(--cor02));
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
