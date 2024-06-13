@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #091540;
+    --cor02: #1A1423;
+    --cor03: #7880B5;
+    --cor04: #6987C9;
+    --cor05: #6BBAEC;
+
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top,var(--cor04), var(--cor03), var(--cor02));
+    }
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        background-image: url(../imagens/plantas-med.png);
+        background-size: cover;
+        background-position: top left;
+        width: 30vw;
+        height: 100vw;
+        float: left;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    body {
+        background-image: linear-gradient(to top,var(--cor04), var(--cor03), var(--cor02));
+    }
+    
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+    
+}
